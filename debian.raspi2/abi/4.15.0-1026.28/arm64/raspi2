@@ -15739,6 +15739,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x7fd0be79	hid_register_report
 EXPORT_SYMBOL_GPL vmlinux 0x7fd64261	clk_hw_register_fixed_rate_with_accuracy
 EXPORT_SYMBOL_GPL vmlinux 0x802e7e66	vfs_setlease
 EXPORT_SYMBOL_GPL vmlinux 0x808795c7	irq_domain_associate_many
+EXPORT_SYMBOL_GPL vmlinux 0x808831ed	__bio_add_page
 EXPORT_SYMBOL_GPL vmlinux 0x808ec1a3	crypto_alg_tested
 EXPORT_SYMBOL_GPL vmlinux 0x809ca361	ata_qc_complete
 EXPORT_SYMBOL_GPL vmlinux 0x80b336d0	ktime_add_safe
@@ -17831,6 +17832,7 @@ EXPORT_SYMBOL_GPL vmlinux 0xfb60e07b	show_class_attr_string
 EXPORT_SYMBOL_GPL vmlinux 0xfb6eedf9	power_group_name
 EXPORT_SYMBOL_GPL vmlinux 0xfb76450e	regulator_bulk_unregister_supply_alias
 EXPORT_SYMBOL_GPL vmlinux 0xfb79eb18	skcipher_walk_async
+EXPORT_SYMBOL_GPL vmlinux 0xfb836d3e	__bio_try_merge_page
 EXPORT_SYMBOL_GPL vmlinux 0xfb974d2b	set_cpus_allowed_ptr
 EXPORT_SYMBOL_GPL vmlinux 0xfbbd41ca	no_action
 EXPORT_SYMBOL_GPL vmlinux 0xfbd0905d	security_kernel_post_read_file

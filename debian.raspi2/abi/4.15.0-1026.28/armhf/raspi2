@@ -16511,6 +16511,7 @@ EXPORT_SYMBOL_GPL vmlinux 0xa351086c	usb_for_each_dev
 EXPORT_SYMBOL_GPL vmlinux 0xa3678bb5	cpuset_cgrp_subsys_enabled_key
 EXPORT_SYMBOL_GPL vmlinux 0xa3742c22	__of_phy_provider_register
 EXPORT_SYMBOL_GPL vmlinux 0xa3769e24	sdio_enable_func
+EXPORT_SYMBOL_GPL vmlinux 0xa38135a5	__bio_try_merge_page
 EXPORT_SYMBOL_GPL vmlinux 0xa385c0c2	phy_led_triggers_register
 EXPORT_SYMBOL_GPL vmlinux 0xa38602cd	drain_workqueue
 EXPORT_SYMBOL_GPL vmlinux 0xa389a49a	profile_event_register
@@ -17441,6 +17442,7 @@ EXPORT_SYMBOL_GPL vmlinux 0xdcb43cdc	cpufreq_freq_attr_scaling_boost_freqs
 EXPORT_SYMBOL_GPL vmlinux 0xdcbf67f3	__wait_rcu_gp
 EXPORT_SYMBOL_GPL vmlinux 0xdcc51570	ipv6_find_tlv
 EXPORT_SYMBOL_GPL vmlinux 0xdcf7ac88	pm_generic_thaw
+EXPORT_SYMBOL_GPL vmlinux 0xdd0275b0	__bio_add_page
 EXPORT_SYMBOL_GPL vmlinux 0xdd0330b9	tps6586x_update
 EXPORT_SYMBOL_GPL vmlinux 0xdd17ffec	trace_clock
 EXPORT_SYMBOL_GPL vmlinux 0xdd2efc0f	ring_buffer_reset_cpu
