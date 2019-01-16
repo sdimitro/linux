@@ -5968,6 +5968,7 @@ EXPORT_SYMBOL vmlinux 0x4a488e16	mdio_device_remove
 EXPORT_SYMBOL vmlinux 0x4a60673a	irq_set_chip
 EXPORT_SYMBOL vmlinux 0x4aa8cc96	migrate_page_copy
 EXPORT_SYMBOL vmlinux 0x4ac2f871	mmc_hw_reset
+EXPORT_SYMBOL vmlinux 0x4adb3a3f	vfio_pci_driver_ptr
 EXPORT_SYMBOL vmlinux 0x4aef4c37	bio_integrity_alloc
 EXPORT_SYMBOL vmlinux 0x4af6ae24	get_cached_acl
 EXPORT_SYMBOL vmlinux 0x4afe9a77	scsi_partsize

@@ -5932,6 +5932,7 @@ EXPORT_SYMBOL vmlinux 0x4aacd53e	mutex_unlock
 EXPORT_SYMBOL vmlinux 0x4aceb1c6	nf_unregister_net_hooks
 EXPORT_SYMBOL vmlinux 0x4acf4a56	inet6_ioctl
 EXPORT_SYMBOL vmlinux 0x4ad1e358	ptp_clock_register
+EXPORT_SYMBOL vmlinux 0x4adb3a3f	vfio_pci_driver_ptr
 EXPORT_SYMBOL vmlinux 0x4ae7a9b3	__dev_get_by_flags
 EXPORT_SYMBOL vmlinux 0x4af0d855	alloc_skb_with_frags
 EXPORT_SYMBOL vmlinux 0x4afe9a77	scsi_partsize
