@@ -13936,6 +13936,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x09363489	ata_sff_pause
 EXPORT_SYMBOL_GPL vmlinux 0x093ac54d	hid_hw_open
 EXPORT_SYMBOL_GPL vmlinux 0x09437748	ring_buffer_read_events_cpu
 EXPORT_SYMBOL_GPL vmlinux 0x09492220	musb_mailbox
+EXPORT_SYMBOL_GPL vmlinux 0x0951af46	i2c_release_dma_safe_msg_buf
 EXPORT_SYMBOL_GPL vmlinux 0x095991e1	spi_bus_unlock
 EXPORT_SYMBOL_GPL vmlinux 0x0961b62e	public_key_signature_free
 EXPORT_SYMBOL_GPL vmlinux 0x0972d97f	usb_lock_device_for_reset
@@ -16367,6 +16368,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x9973add9	__cookie_v6_check
 EXPORT_SYMBOL_GPL vmlinux 0x99764d94	rht_bucket_nested_insert
 EXPORT_SYMBOL_GPL vmlinux 0x997c4347	unmap_kernel_range
 EXPORT_SYMBOL_GPL vmlinux 0x99962fce	device_unregister
+EXPORT_SYMBOL_GPL vmlinux 0x99a106e1	i2c_get_dma_safe_msg_buf
 EXPORT_SYMBOL_GPL vmlinux 0x99a9aa7f	devm_reset_control_array_get
 EXPORT_SYMBOL_GPL vmlinux 0x99b134ca	sbitmap_bitmap_show
 EXPORT_SYMBOL_GPL vmlinux 0x99b7c4c1	gpiod_get_raw_value

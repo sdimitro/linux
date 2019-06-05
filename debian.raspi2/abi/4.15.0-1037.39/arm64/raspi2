@@ -13728,6 +13728,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x0932278a	pingv6_ops
 EXPORT_SYMBOL_GPL vmlinux 0x09437748	ring_buffer_read_events_cpu
 EXPORT_SYMBOL_GPL vmlinux 0x09492220	musb_mailbox
 EXPORT_SYMBOL_GPL vmlinux 0x094fe9f8	ahci_do_softreset
+EXPORT_SYMBOL_GPL vmlinux 0x0951af46	i2c_release_dma_safe_msg_buf
 EXPORT_SYMBOL_GPL vmlinux 0x09585b1a	of_irq_parse_one
 EXPORT_SYMBOL_GPL vmlinux 0x0961b62e	public_key_signature_free
 EXPORT_SYMBOL_GPL vmlinux 0x0963b76b	blocking_notifier_chain_register
@@ -16206,6 +16207,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x9983821c	phy_create
 EXPORT_SYMBOL_GPL vmlinux 0x998b23e2	edac_stop_work
 EXPORT_SYMBOL_GPL vmlinux 0x998d79d6	x509_decode_time
 EXPORT_SYMBOL_GPL vmlinux 0x99a00b29	spi_async_locked
+EXPORT_SYMBOL_GPL vmlinux 0x99a106e1	i2c_get_dma_safe_msg_buf
 EXPORT_SYMBOL_GPL vmlinux 0x99a7fc68	sock_prot_inuse_get
 EXPORT_SYMBOL_GPL vmlinux 0x99a849a7	get_dcookie
 EXPORT_SYMBOL_GPL vmlinux 0x99b0778a	security_kernel_post_read_file
