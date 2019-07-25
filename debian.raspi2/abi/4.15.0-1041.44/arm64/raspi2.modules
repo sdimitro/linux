@@ -451,6 +451,7 @@ can-raw
 cap11xx
 capi
 capidrv
+capsule-loader
 carl9170
 cast5_generic
 cast6_generic
@@ -700,6 +701,7 @@ dmard06
 dmard09
 dmard10
 dme1737
+dmi-sysfs
 dn_rtmsg
 dnet
 docg3
@@ -832,6 +834,10 @@ eeprom
 eeprom_93cx6
 eeprom_93xx46
 eeti_ts
+efi-pstore
+efibc
+efivarfs
+efivars
 efs
 egalax_ts
 egalax_ts_serial
@@ -2732,6 +2738,7 @@ rtc-ds1685
 rtc-ds1742
 rtc-ds2404
 rtc-ds3232
+rtc-efi
 rtc-em3027
 rtc-fm3130
 rtc-ftrtc010
