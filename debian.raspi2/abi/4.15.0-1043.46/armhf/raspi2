@@ -7883,7 +7883,6 @@ EXPORT_SYMBOL vmlinux 0xb3687850	out_of_line_wait_on_bit_lock
 EXPORT_SYMBOL vmlinux 0xb36a7c91	__mdiobus_register
 EXPORT_SYMBOL vmlinux 0xb3978b84	inet_getname
 EXPORT_SYMBOL vmlinux 0xb39b5c87	__pskb_pull_tail
-EXPORT_SYMBOL vmlinux 0xb3c3a182	discard_new_inode
 EXPORT_SYMBOL vmlinux 0xb3d2c76d	scsi_hostbyte_string
 EXPORT_SYMBOL vmlinux 0xb3ddd78f	udp_lib_setsockopt
 EXPORT_SYMBOL vmlinux 0xb3eb059a	param_ops_short

@@ -8943,7 +8943,6 @@ EXPORT_SYMBOL vmlinux 0xf23e8b5d	bdi_register
 EXPORT_SYMBOL vmlinux 0xf23fcb99	__kfifo_in
 EXPORT_SYMBOL vmlinux 0xf24b3dfe	__ioremap
 EXPORT_SYMBOL vmlinux 0xf2997713	tty_termios_hw_change
-EXPORT_SYMBOL vmlinux 0xf29d930d	discard_new_inode
 EXPORT_SYMBOL vmlinux 0xf2a4691d	config_group_find_item
 EXPORT_SYMBOL vmlinux 0xf2abc78a	register_md_cluster_operations
 EXPORT_SYMBOL vmlinux 0xf2c43f3f	zlib_deflate
