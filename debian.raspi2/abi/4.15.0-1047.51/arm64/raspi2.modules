@@ -2271,12 +2271,6 @@ nsh
 ntc_thermistor
 ntfs
 null_blk
-nvme-core
-nvme-fabrics
-nvme-fc
-nvme-loop
-nvmet
-nvmet-fc
 nxp-nci
 nxp-nci_i2c
 nxp-ptn3460
@@ -2350,7 +2344,6 @@ parport
 parport_ax88796
 pata_of_platform
 pata_platform
-pblk
 pc87360
 pc87427
 pcap-regulator
@@ -2699,7 +2692,6 @@ rpisense-fb
 rpisense-js
 rpmsg_core
 rpr0521
-rrpc
 rsi_91x
 rsi_sdio
 rsi_usb
