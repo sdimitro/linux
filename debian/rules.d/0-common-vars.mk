@@ -82,6 +82,15 @@ ifneq ($(full_build),false)
   uploadnum	:= $(uploadnum)-Ubuntu
 endif
 
+#
+# Disable ABI checks if the previous revision ends in '.0', which  means this
+# is a first release kernel.
+#
+prev_lastcomp	:= $(lastword $(subst ., ,$(prev_revision)))
+ifeq ($(prev_lastcomp),0)
+skipabi	= true
+endif
+
 # XXX: linux-libc-dev got bumped to -803.N inadvertantly by a ti-omap4 upload
 #      shift our version higher for this package only.  Ensure this only
 #      occurs for the v2.6.35 kernel so that we do not propogate this into
