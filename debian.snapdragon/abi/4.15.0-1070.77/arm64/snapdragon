@@ -6092,6 +6092,7 @@ EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_map_generic_address
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_printf
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_read_port
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_unmap_generic_address
+EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_wait_events_complete
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_os_write_port
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_osi_is_win8
 EXPORT_SYMBOL vmlinux 0x00000000	acpi_pci_disabled
@@ -6826,6 +6827,11 @@ EXPORT_SYMBOL vmlinux 0x00000000	devm_request_any_context_irq
 EXPORT_SYMBOL vmlinux 0x00000000	devm_request_resource
 EXPORT_SYMBOL vmlinux 0x00000000	devm_request_threaded_irq
 EXPORT_SYMBOL vmlinux 0x00000000	dget_parent
+EXPORT_SYMBOL vmlinux 0x00000000	dim_calc_stats
+EXPORT_SYMBOL vmlinux 0x00000000	dim_on_top
+EXPORT_SYMBOL vmlinux 0x00000000	dim_park_on_top
+EXPORT_SYMBOL vmlinux 0x00000000	dim_park_tired
+EXPORT_SYMBOL vmlinux 0x00000000	dim_turn
 EXPORT_SYMBOL vmlinux 0x00000000	disable_irq
 EXPORT_SYMBOL vmlinux 0x00000000	disable_irq_nosync
 EXPORT_SYMBOL vmlinux 0x00000000	disk_stack_limits
@@ -6912,7 +6918,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	dns_query
 EXPORT_SYMBOL vmlinux 0x00000000	do_SAK
 EXPORT_SYMBOL vmlinux 0x00000000	do_blank_screen
 EXPORT_SYMBOL vmlinux 0x00000000	do_clone_file_range
-EXPORT_SYMBOL vmlinux 0x00000000	do_gettimeofday
 EXPORT_SYMBOL vmlinux 0x00000000	do_settimeofday64
 EXPORT_SYMBOL vmlinux 0x00000000	do_splice_direct
 EXPORT_SYMBOL vmlinux 0x00000000	do_unblank_screen
@@ -7609,7 +7614,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	fb_dealloc_cmap
 EXPORT_SYMBOL vmlinux 0x00000000	fb_default_cmap
 EXPORT_SYMBOL vmlinux 0x00000000	fb_deferred_io_mmap
 EXPORT_SYMBOL vmlinux 0x00000000	fb_destroy_modedb
-EXPORT_SYMBOL vmlinux 0x00000000	fb_edid_add_monspecs
 EXPORT_SYMBOL vmlinux 0x00000000	fb_edid_to_monspecs
 EXPORT_SYMBOL vmlinux 0x00000000	fb_find_best_display
 EXPORT_SYMBOL vmlinux 0x00000000	fb_find_best_mode
@@ -7894,7 +7898,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	get_random_bytes
 EXPORT_SYMBOL vmlinux 0x00000000	get_random_bytes_arch
 EXPORT_SYMBOL vmlinux 0x00000000	get_random_u32
 EXPORT_SYMBOL vmlinux 0x00000000	get_random_u64
-EXPORT_SYMBOL vmlinux 0x00000000	get_seconds
 EXPORT_SYMBOL vmlinux 0x00000000	get_super
 EXPORT_SYMBOL vmlinux 0x00000000	get_super_exclusive_thawed
 EXPORT_SYMBOL vmlinux 0x00000000	get_super_thawed
@@ -8903,6 +8906,11 @@ EXPORT_SYMBOL vmlinux 0x00000000	neigh_table_clear
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_table_init
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_update
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_xmit
+EXPORT_SYMBOL vmlinux 0x00000000	net_dim
+EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_def_rx_moderation
+EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_def_tx_moderation
+EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_rx_moderation
+EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_tx_moderation
 EXPORT_SYMBOL vmlinux 0x00000000	net_disable_timestamp
 EXPORT_SYMBOL vmlinux 0x00000000	net_enable_timestamp
 EXPORT_SYMBOL vmlinux 0x00000000	net_ns_barrier
@@ -9706,6 +9714,7 @@ EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node
 EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node_cached
 EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node_rcu
 EXPORT_SYMBOL vmlinux 0x00000000	rc5t583_ext_power_req_config
+EXPORT_SYMBOL vmlinux 0x00000000	rdma_dim
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_register_device
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_try_charge
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_uncharge
@@ -10137,6 +10146,10 @@ EXPORT_SYMBOL vmlinux 0x00000000	sg_pcopy_to_buffer
 EXPORT_SYMBOL vmlinux 0x00000000	sg_zero_buffer
 EXPORT_SYMBOL vmlinux 0x00000000	sget
 EXPORT_SYMBOL vmlinux 0x00000000	sget_userns
+EXPORT_SYMBOL vmlinux 0x00000000	sgl_alloc
+EXPORT_SYMBOL vmlinux 0x00000000	sgl_alloc_order
+EXPORT_SYMBOL vmlinux 0x00000000	sgl_free
+EXPORT_SYMBOL vmlinux 0x00000000	sgl_free_order
 EXPORT_SYMBOL vmlinux 0x00000000	sha_init
 EXPORT_SYMBOL vmlinux 0x00000000	sha_transform
 EXPORT_SYMBOL vmlinux 0x00000000	should_remove_suid
