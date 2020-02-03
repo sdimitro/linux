@@ -3065,6 +3065,8 @@ phy-qcom-apq8064-sata
 phy-qcom-ipq806x-sata
 phy-qcom-qmp
 phy-qcom-qusb2
+phy-qcom-ufs
+phy-qcom-ufs-qmp-14nm
 phy-qcom-usb-hsic
 phy-sun4i-usb
 phy-tahvo
@@ -4281,6 +4283,9 @@ target_core_iblock
 target_core_mod
 target_core_pscsi
 target_core_user
+tc-dwc-g210
+tc-dwc-g210-pci
+tc-dwc-g210-pltfrm
 tc358767
 tc3589x-keypad
 tc654
@@ -4541,6 +4546,11 @@ udp_diag
 udp_tunnel
 ueagle-atm
 ufs
+ufs-qcom
+ufshcd
+ufshcd-dwc
+ufshcd-pci
+ufshcd-pltfrm
 uhid
 uio
 uio_aec
