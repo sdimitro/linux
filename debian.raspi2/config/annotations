@@ -7468,8 +7468,8 @@ CONFIG_VFIO_PCI_VGA                             policy<{'amd64': 'y', 'i386': 'y
 CONFIG_VFIO_MDEV                                policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 CONFIG_VFIO_MDEV_DEVICE                         policy<{'amd64': 'm', 'arm64': 'm', 'armhf': 'm', 'i386': 'm', 'ppc64el': 'm', 's390x': 'm'}>
 #
-CONFIG_VFIO					mark<ENFORCED>note<LP#1636733>
-CONFIG_VFIO_PCI					mark<ENFORCED>note<LP#1636733>
+CONFIG_VFIO					note<not enforced ENFORCED for raspi> note<LP#1636733>
+CONFIG_VFIO_PCI					note<not enforced ENFORCED for raspi> note<LP#1636733>
 
 # Menu: Device Drivers >> VFIO Non-Privileged userspace driver framework >> VFIO support for platform devices
 CONFIG_VFIO_PLATFORM                            policy<{'arm64': 'm', 'armhf': 'm'}>
