@@ -5059,6 +5059,7 @@ EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_scan_done
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_sched_scan_results
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_sched_scan_stopped
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_sched_scan_stopped_rtnl
+EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_send_layer2_update
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_stop_iface
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_tdls_oper_request
 EXPORT_SYMBOL net/wireless/cfg80211 0x00000000	cfg80211_tx_mlme_mgmt
@@ -6840,11 +6841,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	devm_request_any_context_irq
 EXPORT_SYMBOL vmlinux 0x00000000	devm_request_resource
 EXPORT_SYMBOL vmlinux 0x00000000	devm_request_threaded_irq
 EXPORT_SYMBOL vmlinux 0x00000000	dget_parent
-EXPORT_SYMBOL vmlinux 0x00000000	dim_calc_stats
-EXPORT_SYMBOL vmlinux 0x00000000	dim_on_top
-EXPORT_SYMBOL vmlinux 0x00000000	dim_park_on_top
-EXPORT_SYMBOL vmlinux 0x00000000	dim_park_tired
-EXPORT_SYMBOL vmlinux 0x00000000	dim_turn
 EXPORT_SYMBOL vmlinux 0x00000000	disable_irq
 EXPORT_SYMBOL vmlinux 0x00000000	disable_irq_nosync
 EXPORT_SYMBOL vmlinux 0x00000000	disk_stack_limits
@@ -8919,11 +8915,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	neigh_table_clear
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_table_init
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_update
 EXPORT_SYMBOL vmlinux 0x00000000	neigh_xmit
-EXPORT_SYMBOL vmlinux 0x00000000	net_dim
-EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_def_rx_moderation
-EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_def_tx_moderation
-EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_rx_moderation
-EXPORT_SYMBOL vmlinux 0x00000000	net_dim_get_tx_moderation
 EXPORT_SYMBOL vmlinux 0x00000000	net_disable_timestamp
 EXPORT_SYMBOL vmlinux 0x00000000	net_enable_timestamp
 EXPORT_SYMBOL vmlinux 0x00000000	net_ns_barrier
@@ -9727,7 +9718,6 @@ EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node
 EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node_cached
 EXPORT_SYMBOL vmlinux 0x00000000	rb_replace_node_rcu
 EXPORT_SYMBOL vmlinux 0x00000000	rc5t583_ext_power_req_config
-EXPORT_SYMBOL vmlinux 0x00000000	rdma_dim
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_register_device
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_try_charge
 EXPORT_SYMBOL vmlinux 0x00000000	rdmacg_uncharge
@@ -11199,9 +11189,11 @@ EXPORT_SYMBOL_GPL drivers/ata/libahci 0x00000000	ahci_start_engine
 EXPORT_SYMBOL_GPL drivers/ata/libahci 0x00000000	ahci_start_fis_rx
 EXPORT_SYMBOL_GPL drivers/ata/libahci 0x00000000	ahci_stop_engine
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_disable_clks
+EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_disable_phys
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_disable_regulators
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_disable_resources
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_enable_clks
+EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_enable_phys
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_enable_regulators
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_enable_resources
 EXPORT_SYMBOL_GPL drivers/ata/libahci_platform 0x00000000	ahci_platform_get_resources
@@ -13176,7 +13168,6 @@ EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_init
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_init_sbands
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_notification_wait
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_notification_wait_init
-EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_nvm_check_version
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_opmode_deregister
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_opmode_register
 EXPORT_SYMBOL_GPL drivers/net/wireless/intel/iwlwifi/iwlwifi 0x00000000	iwl_parse_eeprom_data
@@ -13748,7 +13739,6 @@ EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_contro
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_free
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_get_ata_protocol
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_get_fw_info
-EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_get_ncq_tag
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_get_prog_phy_linkrate_mask
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_init_mem
 EXPORT_SYMBOL_GPL drivers/scsi/hisi_sas/hisi_sas_main 0x00000000	hisi_sas_kill_tasklets
@@ -15018,7 +15008,6 @@ EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_dlm_lock_status
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_dlm_lvb
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_dlm_lvb_valid
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_dlm_unlock
-EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_is_o2cb_active
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_kset
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_plock
 EXPORT_SYMBOL_GPL fs/ocfs2/ocfs2_stackglue 0x00000000	ocfs2_stack_glue_register
@@ -21829,6 +21818,7 @@ EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_gen_setup
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_init_driver
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_resume
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_run
+EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_shutdown
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	xhci_suspend
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	xts_crypt
 EXPORT_SYMBOL_GPL vmlinux 0x00000000	yield_to
