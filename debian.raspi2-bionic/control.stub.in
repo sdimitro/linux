@@ -7,6 +7,7 @@ Build-Depends:
  debhelper (>= 9),
  dh-systemd,
  cpio,
+ dkms <!stage1>,
  kernel-wedge,
  kmod <!stage1>,
  makedumpfile [amd64] <!stage1>,
@@ -34,6 +35,7 @@ Build-Depends:
  automake <!stage1>,
  libtool <!stage1>,
  uuid-dev <!stage1>,
+ wget <!stage1>,
 Build-Depends-Indep:
  xmlto <!stage1>,
  docbook-utils <!stage1>,
